@@ -1,0 +1,35 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Hazel</title>
+</head>
+<body>
+    <header>BANNER</header>
+    <nav>
+        HIPERVINCULOS
+    </nav>
+    <section>
+        <article>
+            mentiras 1
+        </article>
+        <article>
+            more mentiras
+        </article>
+    </section>
+    <aside>
+        IMAGENES
+    </aside>
+    <footer>
+       <div class="copyright">
+        <p>&copy; <span id="year"></span>Derechos reservados.</p>
+    </footer>
+    <script>
+        let year= document.getELEMENTById('year');
+        let dynamicYear =new Date().getFullYear;
+        year.innerHTML=dynamicYear;
+    </script>
+</body>
+</html>                     
